@@ -1,0 +1,81 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+header{
+    background: radial-gradient(circle, rgba(0, 212, 255, 0.4) 0%, rgba(9, 9, 121, 0.4) 60%, rgba(2, 0, 36, 0.4) 100%);
+
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+nav{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.4) 0%, rgba(0, 80, 255, 0.4) 50%, rgba(0, 212, 255, 0.4) 100%);
+
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.contenedor{
+    display: flex;
+    padding: 20px;
+     background: linear-gradient(180deg, rgba(2, 0, 36, 0.4) 0%, rgba(9, 9, 121, 0.4) 50%, rgba(0, 212, 255, 0.4) 100%);
+
+}
+
+article{
+    flex: 3;
+    margin-right: 20px;
+    background: linear-gradient(180deg, rgba(2, 0, 36, 0.4) 0%, rgba(9, 9, 121, 0.4) 50%, rgba(0, 212, 255, 0.4) 100%);
+
+    padding: 15px;
+}
+
+article h2{
+    color:white;
+}
+
+section{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+aside{
+    flex: 1;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+footer{
+    background: linear-gradient(90deg, rgba(1, 11, 38, 0.4) 0%, rgba(5, 5, 100, 0.4) 40%, rgba(0, 180, 255, 0.4) 100%);
+
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#idInicio:hover{
+    font-size: larger;
+}
